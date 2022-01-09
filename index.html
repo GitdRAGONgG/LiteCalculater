@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculater</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="display">
+	<h3 id="out">Output:<h3>
+	<p id="Output"> </p>
+	</div>
+	<div class="first-row">
+		<button onclick="forclear()" style="height:55px;width:130px" id="r1-1">C</button>
+		<button style="height:55px;width:60px" onclick="procent('%')" id="r1-2">%</button>
+		<button style="height:55px;width:60px" onclick="mean('/')" id="r1-3">÷</button>
+	</div>
+	<div class="second-row">
+		<button style="height:55px;width:61px" onclick="fordisplay('7')" id="r2-1">7</button>
+		<button style="height:55px;width:61px" onclick="fordisplay('8')" id="r2-2">8</button>
+		<button style="height:55px;width:61px" onclick="fordisplay('9')" id="r2-3">9</button>
+		<button style="height:55px;width:61px" onclick="mean('*')" id="r2-4">×</button>	
+	</div>
+	<div class="third-row">
+		<button style="height:55px;width:61px" onclick="fordisplay('4')" id="r3-1">4</button>
+		<button style="height:55px;width:61px" onclick="fordisplay('5')" id="r3-2">5</button>
+		<button style="height:55px;width:61px" onclick="fordisplay('6')" id="r3-3">6</button>
+		<button style="height:55px;width:61px" onclick="mean('-')" id="r3-4">-</button>
+	</div>
+	<div class="forth-row">
+		<button style="height:55px;width:61px" onclick="fordisplay('1')" id="r4-1">1</button>
+		<button style="height:55px;width:61px" onclick="fordisplay('2')" id="r4-2">2</button>
+		<button style="height:55px;width:61px" onclick="fordisplay('3')" id="r4-3">3</button>
+		<button style="height:55px;width:61px" onclick="mean('+')" id="r4-4">+</button>
+	</div>
+	<div class="fifth-row">
+		<button style="height:55px;width:125px" onclick="fordisplay('0')" id="r5-1">0</button>
+		<button style="height:55px;width:62px" onclick="fordisplay('.')" id="r5-2">.</button>
+		<button style="height:55px;width:62px" onclick="solve('=')" id="r5-3">=</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+
